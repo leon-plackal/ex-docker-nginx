@@ -1,0 +1,50 @@
+# Ignore version control files
+.git
+.gitignore
+.svn
+
+# Ignore development and IDE files
+.vscode
+.idea
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Ignore node/npm files (if applicable)
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignore build and temp files
+dist
+build
+tmp
+*.log
+
+# Ignore Docker files
+Dockerfile.dev
+docker-compose*.yml
+*.dockerfile
+
+# Ignore documentation
+README.md
+docs
+*.md
+
+# Ignore test files
+test
+tests
+__tests__
+*.test.js
+*.spec.js
+
+# Ignore environment files
+.env
+.env.*
+*.env
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
